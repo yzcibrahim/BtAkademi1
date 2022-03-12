@@ -85,11 +85,9 @@ namespace LoopSamples
                 tekmiCiftmi = i % 2 == 0 ? "çift" : "tek";
                 Console.WriteLine(i + " :" + tekmiCiftmi);
 
-               
-
             }
 
-
+            Console.WriteLine("Teşekkürler");
 
 
         }
