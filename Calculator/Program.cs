@@ -6,7 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hoş geldinizzzztest");
+            Console.WriteLine("Hoş asdasdasd");
             Console.WriteLine("Birinci Sayıyı Giriniz:");
             double sayi1 = Convert.ToDouble(Console.ReadLine());
 
