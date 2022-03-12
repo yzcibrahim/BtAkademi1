@@ -121,7 +121,7 @@ namespace BtAkademi1
             //}
 
             int index = 0;
-            for (index = 50; index < 50; index++)
+            for (index = 0; index < 50; index=index+2)
             {
                 Console.WriteLine(index + "Günaydın sınıf");
             }
