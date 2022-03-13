@@ -4,14 +4,33 @@ namespace BtAkademi1
 {
     class Program
     {
+        static int KareHesapla(int sayi)
+        {
+            Console.WriteLine(sayi + " sayının Karesi:" + (sayi * sayi));
+            return sayi * sayi;
+        }
+
+        static int KupHesapla(int sayi)
+        {
+            Console.WriteLine(sayi + " sayının Küpü:" + (sayi * sayi*sayi));
+            return sayi * sayi * sayi;
+        }
+
         static void Main(string[] args)
         {
-            //
-            //string abc="Cem";
+            Console.WriteLine("Sayı giriniz:");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            
+            int sayininKaresi=KareHesapla(sayi);
+            int sayininKupu=KupHesapla(sayininKaresi);
 
 
-            ////Console.WriteLine("isim giriniz");
-            ////abc = Console.ReadLine();
+
+           // string abc = "Cem";
+
+
+          //  Console.WriteLine("isim giriniz");
+          //  abc = Console.ReadLine();
 
             ////abc = "test";
 
@@ -120,29 +139,42 @@ namespace BtAkademi1
             //    Console.WriteLine("ifade doğru");
             //}
 
-            int index = 0;
-            for (index = 0; index < 50; index=index+2)
-            {
-                Console.WriteLine(index + "Günaydın sınıf");
-            }
+            //int index = 0;
+            //for (index = 0; index < 50; index=index+2)
+            //{
+            //    Console.WriteLine(index + "Günaydın sınıf");
+            //}
 
-            index = 50;
-            while (index < 50)
-            {
-                Console.WriteLine(index + "Günaydın sınıf while");
-                index++;
-                //index = index + 1;
-                //index += 1;
-            }
+            //index = 50;
+            //while (index < 50)
+            //{
+            //    Console.WriteLine(index + "Günaydın sınıf while");
+            //    index++;
+            //    //index = index + 1;
+            //    //index += 1;
+            //}
 
-            index = 50;
-            do
-            {
-                Console.WriteLine(index + "Günaydın sınıf while");
-                index++;
+            //index = 50;
+            //do
+            //{
+            //    Console.WriteLine(index + "Günaydın sınıf while");
+            //    index++;
 
-            }
-            while (index < 50);
+            //}
+            //while (index < 50);
+
+            //break continue;
+            //for(int i=0;i<10;i++)
+            //{
+            //    if (i == 5)
+            //        break;
+
+            //    if (i == 2)
+            //        continue;
+
+            //    Console.WriteLine(i);
+
+            //}
 
             Console.ReadLine();
 
